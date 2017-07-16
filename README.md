@@ -1,7 +1,7 @@
 # lem-in
 ###### An algorithmic exploration of input parsing, recursive backtracking, and output formatting.
 
-Get all the ants from the start to the finish using the fewest number of hops.
+Get all the ants from start to finish using the fewest number of hops.
 
 ## Input parsing:
 Instructions:
