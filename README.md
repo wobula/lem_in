@@ -27,7 +27,7 @@ The syntax of the output is:
 1. Re-print input content
 2. Print two newlines
 3. Print line by line animation of ants traversing through the map
- * The syntax for ant movements is "L[Ant Number]-[Room Number]"
+ * The syntax for ant movements is "L[Ant Number]-[Room Name]"
  * Never more than one ant per room, only one movement per turn, per ant
 
 ![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img3.png)
