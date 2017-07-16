@@ -9,7 +9,7 @@ Instructions:
 2.  "./lem-in -v < maps/long_Chloe"
 3.  Observe. ;]
 
-![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img21.png)
+![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img1.png)
 
 ## Recursive backtracking:
 The algorithm first creates a linked list that simulates the structure of the maze.
@@ -30,4 +30,4 @@ The syntax of the output is:
   *syntax for ant movements is "L[Ant Number]-[Room Number]"
   *Never more than one ant per room, only one movement per turn, per ant
 
-![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img23.png)
+![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img3.png)
