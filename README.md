@@ -14,8 +14,7 @@ Instructions:
 ## Recursive backtracking:
 The algorithm first creates a linked list that simulates the structure of the maze.
 Next, it starts at the beginning and checks every single door of every room until it finds an exit.
- * No room repeat checks
- * No exit checks
+ * No infinite loop checks
  * Checks for no start and/or finish and/or too many starts/finishes
  * Picks first, shortest path
 
@@ -31,3 +30,5 @@ The syntax of the output is:
  * Never more than one ant per room, only one movement per turn, per ant
 
 ![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/img3.png)
+
+ * A large set of map test files is located in the maps subfolder
