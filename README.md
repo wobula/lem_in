@@ -8,6 +8,7 @@ Instructions:
 1.  "make"
 2.  "./lem-in -v < maps/long_Chloe"
 3.  Observe. ;]
+  
 ![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/1.png)
 
 ## Recursive backtracking:
@@ -17,6 +18,7 @@ Next, it starts at the beginning and checks every single door of every room unti
   *No exit checks
   *Checks for no start and/or finish and/or too many starts/finishes
   *Picks first, shortest path
+
 ![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/2.png)
 
 ## Output formatting:
@@ -27,4 +29,5 @@ The syntax of the output is:
 3. Print line by line animation of ants traversing through the map
   *syntax for ant movements is "L[Ant Number]-[Room Number]"
   *Never more than one ant per room, only one movement per turn, per ant
+
 ![Input Content](https://raw.githubusercontent.com/wobula/lem_in/master/3.png)
