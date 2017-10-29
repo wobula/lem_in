@@ -75,8 +75,8 @@ int		get_input(t_lame *llama)
 			;
 		else if (get_links(llama, line))
 			;
-		else if (get_start_end(llama, line))
-			;
+		else if (get_start_end(llama, line)) {
+		}
 		llama->raw = ft_strxjoin(llama->raw, line, 1);
 		llama->raw = ft_strxjoin(llama->raw, "\n", 1);
 		free(line);

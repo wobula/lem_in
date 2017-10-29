@@ -61,7 +61,7 @@ int			get_next_line(const int fd, char **line)
 			return (1);
 		}
 	}
-	*line = ft_strnxdup(str[fd], 0, last - str[fd]);
+	*line = ft_strsub(str[fd], 0, last - str[fd]);
 	finish(&str[fd], last);
 	return (1);
 }
